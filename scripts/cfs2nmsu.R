@@ -35,9 +35,9 @@ dataUrls <-
             format= "%Y%m%d"),
           sprintf( "%s.daily.grb2", hour),
           sep= ""),
-        sep= "."), 
+        sep= "."),
       sep= "/"))
-  
+
 wgetCommands <-
   paste(
     "wget",
