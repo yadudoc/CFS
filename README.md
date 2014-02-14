@@ -37,10 +37,10 @@ scripts/cfsArchive.sbatch appears to be a minor variant of cfsrr.sbatch
 
 ## Todo list:
 
--[ ] Code walkthrough
--[ ] Cleanup docs
--[ ] Try test runs and find issues
--[ ] Move from custom slurm batch files to swift for better workflows.
+* Code walkthrough
+* Cleanup docs
+* Test runs
+* Move from custom slurm batch files to swift for better workflows.
 
 
 
