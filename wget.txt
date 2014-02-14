@@ -1,0 +1,11 @@
+http://nomads.ncep.noaa.gov/pub/data/nccf/com/cfs/prod/cfs/cfs.20121101/00/time_grib_01/prate.01.2012110100.daily.grb2
+http://nomads.ncep.noaa.gov/pub/data/nccf/com/cfs/prod/cfs/cfs.20121101/00/time_grib_01/prate.01.2012110100.daily.grb2.idx
+http://nomads.ncep.noaa.gov/pub/data/nccf/com/cfs/prod/cfs/cfs.20121101/00/time_grib_01/tmax.01.2012110100.daily.grb2
+http://nomads.ncep.noaa.gov/pub/data/nccf/com/cfs/prod/cfs/cfs.20121101/00/time_grib_01/tmax.01.2012110100.daily.grb2.idx
+http://nomads.ncep.noaa.gov/pub/data/nccf/com/cfs/prod/cfs/cfs.20121101/00/time_grib_01/tmin.01.2012110100.daily.grb2
+http://nomads.ncep.noaa.gov/pub/data/nccf/com/cfs/prod/cfs/cfs.20121101/00/time_grib_01/tmin.01.2012110100.daily.grb2.idx
+http://nomads.ncep.noaa.gov/pub/data/nccf/com/cfs/prod/cfs/cfs.20121101/00/time_grib_01/dswsfc.01.2012110100.daily.grb2
+http://nomads.ncep.noaa.gov/pub/data/nccf/com/cfs/prod/cfs/cfs.20121101/00/time_grib_01/dswsfc.01.2012110100.daily.grb2.idx
+http://nomads.ncep.noaa.gov/pub/data/nccf/com/cfs/prod/cfs/cfs.20121101/00/6hrly_grib_01/flxf2012110100.01.2012110100.grb2
+http://nomads.ncep.noaa.gov/pub/data/nccf/com/cfs/prod/cfs/cfs.20121101/00/6hrly_grib_01/flxf2012110100.01.2012110100.grb2.idx
+
