@@ -1,0 +1,7 @@
+#rule .*6hour.*grb2 DIRECT /project/joshuaelliott/cfs/data/cfsr-rfl-ts9/prate/6hour/
+#rule .*6hour.*grb2 DIRECT /scratch/midway/yadunand/CFS/cfs6HourToDaily/
+rule .*grb2 DIRECT /scratch/midway/yadunand/CFS/cfs6HourToDaily/
+#rule .*daily.*grb2 DIRECT /project/joshuaelliott/cfs/data/cfsr-rfl-ts9/prate/daily/
+#rule .*daily.*grb2 DIRECT /scratch/midway/yadunand/CFS/cfs6HourToDaily/
+#rule .*daily.*grb2 DIRECT /scratch/midway/yadunand/CFS/cfs6HourToDaily/
+

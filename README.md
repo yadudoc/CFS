@@ -8,6 +8,10 @@ day of each month.
 Scripts are tailored for clusters running SLURM but easily adapted to
 any system.
 
+### Tasks outlined here :
+
+Google doc : https://docs.google.com/document/d/1Kq5ehxSW-d_yeYFAXUdlYT961k4ymD5nYPE0V3XBJi4/edit
+
 ### Overview:
 
 This project periodically downloads climate data and performs data transforms

@@ -39,7 +39,7 @@ dataUrls <-
           sep= ""),
         sep= "."), 
       sep= "/"))
-  
+
 wgetCommands <-
   paste(
     "wget",
