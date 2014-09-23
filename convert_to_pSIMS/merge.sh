@@ -1,13 +1,13 @@
 #!/bin/bash
 
-
 #FINAL="grb2"
 #FINAL="nc4"
 FINAL="nc"
 
 if [ "$1" == "" ]
 then
-    ARG1="__root__/scratch/midway/yadunand/CFS/convert_to_pSIMS/sample/prate/prate.1981121200.time.grb2"
+    #ARG1="__root__/scratch/midway/yadunand/CFS/convert_to_pSIMS/sample/prate/prate.1981121200.time.grb2"
+    ARG1="__root__/scratch/midway/yadunand/CFS/convert_to_pSIMS/sample/prate/prate.1997073000.time.grb2"
 else
     ARG1=$1
 fi
@@ -68,10 +68,11 @@ elif [ "$FINAL" == "nc4" ]
 then
     echo -e "cdo -f nc4 merge \n $prate \n $dswsfc \n $tmax \n $tmin \n $wnd10m \n $RESULT"
     cdo -f nc4 merge "$prate $dswsfc $tmax $tmin $wnd10m $RESULT" 2>&1
+    #cdo -f nc4 merge "$prate $dswsfc $tmax $tmin $wnd10m out.nc4" 2>&1
+    #cdo remapcon,r768x380 $RESULT.nc4 $RESULT_remapped.nc4 2>&1
+    #cdo -g t100grid -f nc4 merge "$prate $dswsfc $tmax $tmin $wnd10m TEST_$BASE.nc4" 2>&1
+    #cdo remapcon,r768x380 $RESULT.nc4 $RESULT_remapped.nc4 2>&1
 else
     echo "Unknown final formal [$FINAL] : Exiting with error"
     exit -1
 fi
-
-
-#cdo  merge "$prate $dswsfc $tmax $tmin $wnd10m $RESULT" 2>&1

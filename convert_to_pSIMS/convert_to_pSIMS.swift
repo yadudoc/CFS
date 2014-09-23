@@ -8,8 +8,10 @@ app (file o) cdo_merge (script exec, string input, string result){
 string input_dir  = arg("daily",  "/scratch/midway/yadunand/CFS/convert_to_pSIMS/sample");
 string output_dir = arg("output", "/scratch/midway/yadunand/CFS/convert_to_pSIMS/merged_grb2");
 
+
+
 file prateDaily[] <filesys_mapper; location=@strcat(input_dir,"/prate"), suffix="grb2">;
-//file prate6hour[] <filesys_mapper; location="./", suffix="grb2">;
+file prate6hour[] <filesys_mapper; location="./", suffix="grb2">;
 script merger <"merge.sh">;
 
 foreach daily in prateDaily{

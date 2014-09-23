@@ -43,7 +43,7 @@ to run on a single cell so is not generalized to the entire data set.
 It would be used to build pSIMS files.
 
 scripts/cfsArchive6hour.R is related to data/cfsr-rfl-ts9.  I forget what
-that is but the URL is in the script. http://nomad;s.ncdc.noaa.gov/data/cfsr-rfl-ts9
+that is but the URL is in the script. http://nomads.ncdc.noaa.gov/data/cfsr-rfl-ts9
 Judging from the time stamp we did not do anything with this since last April.
 
 scripts/cfsrr.R puts the data from http://nomads.ncdc.noaa.gov/modeldata/cmd_ts_9mon

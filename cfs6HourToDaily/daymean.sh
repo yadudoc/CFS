@@ -3,7 +3,6 @@
 OUTPUT_FORMAT="grb2"
 #OUTPUT_FORMAT="nc4"
 
-
 echo "Args passed : $* "
 SOURCEFILE=$1
 DESTFOLDER=$2
